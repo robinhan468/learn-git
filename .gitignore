@@ -1,0 +1,37 @@
+# 排除 C++ 可执行文件
+*.exe
+*.out
+*.app
+
+# 排除 C++ 编译生成的文件
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# 排除编译器生成的目录
+build/
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# 排除 IDE 特定的文件和目录
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+ipch/
+.idea/
+cmake-build-*/
+
+# 排除预编译头文件
+*.gch
+*.pch

@@ -35,3 +35,6 @@ cmake-build-*/
 # 排除预编译头文件
 *.gch
 *.pch
+
+# 排除.env 文件
+.env
